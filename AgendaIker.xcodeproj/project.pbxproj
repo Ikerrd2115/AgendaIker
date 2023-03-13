@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D14015829BF37500097393E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14015729BF37500097393E /* AppDelegate.swift */; };
+		0D14015A29BF37500097393E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14015929BF37500097393E /* SceneDelegate.swift */; };
+		0D14015C29BF37500097393E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14015B29BF37500097393E /* ViewController.swift */; };
+		0D14015F29BF37500097393E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D14015D29BF37500097393E /* Main.storyboard */; };
+		0D14016129BF37510097393E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D14016029BF37510097393E /* Assets.xcassets */; };
+		0D14016429BF37510097393E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D14016229BF37510097393E /* LaunchScreen.storyboard */; };
+		0D14016F29BF37510097393E /* AgendaIkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14016E29BF37510097393E /* AgendaIkerTests.swift */; };
+		0D14017929BF37510097393E /* AgendaIkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14017829BF37510097393E /* AgendaIkerUITests.swift */; };
+		0D14017B29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D14016B29BF37510097393E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D14014C29BF374F0097393E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D14015329BF37500097393E;
+			remoteInfo = AgendaIker;
+		};
+		0D14017529BF37510097393E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D14014C29BF374F0097393E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D14015329BF37500097393E;
+			remoteInfo = AgendaIker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D14015429BF37500097393E /* AgendaIker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaIker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D14015729BF37500097393E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D14015929BF37500097393E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D14015B29BF37500097393E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D14015E29BF37500097393E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D14016029BF37510097393E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D14016329BF37510097393E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D14016529BF37510097393E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D14016A29BF37510097393E /* AgendaIkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaIkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D14016E29BF37510097393E /* AgendaIkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaIkerTests.swift; sourceTree = "<group>"; };
+		0D14017429BF37510097393E /* AgendaIkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaIkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D14017829BF37510097393E /* AgendaIkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaIkerUITests.swift; sourceTree = "<group>"; };
+		0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaIkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D14015129BF37500097393E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14016729BF37510097393E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14017129BF37510097393E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D14014B29BF374F0097393E = {
+			isa = PBXGroup;
+			children = (
+				0D14015629BF37500097393E /* AgendaIker */,
+				0D14016D29BF37510097393E /* AgendaIkerTests */,
+				0D14017729BF37510097393E /* AgendaIkerUITests */,
+				0D14015529BF37500097393E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D14015529BF37500097393E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D14015429BF37500097393E /* AgendaIker.app */,
+				0D14016A29BF37510097393E /* AgendaIkerTests.xctest */,
+				0D14017429BF37510097393E /* AgendaIkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D14015629BF37500097393E /* AgendaIker */ = {
+			isa = PBXGroup;
+			children = (
+				0D14015729BF37500097393E /* AppDelegate.swift */,
+				0D14015929BF37500097393E /* SceneDelegate.swift */,
+				0D14015B29BF37500097393E /* ViewController.swift */,
+				0D14015D29BF37500097393E /* Main.storyboard */,
+				0D14016029BF37510097393E /* Assets.xcassets */,
+				0D14016229BF37510097393E /* LaunchScreen.storyboard */,
+				0D14016529BF37510097393E /* Info.plist */,
+			);
+			path = AgendaIker;
+			sourceTree = "<group>";
+		};
+		0D14016D29BF37510097393E /* AgendaIkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D14016E29BF37510097393E /* AgendaIkerTests.swift */,
+			);
+			path = AgendaIkerTests;
+			sourceTree = "<group>";
+		};
+		0D14017729BF37510097393E /* AgendaIkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D14017829BF37510097393E /* AgendaIkerUITests.swift */,
+				0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */,
+			);
+			path = AgendaIkerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D14015329BF37500097393E /* AgendaIker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D14017E29BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIker" */;
+			buildPhases = (
+				0D14015029BF37500097393E /* Sources */,
+				0D14015129BF37500097393E /* Frameworks */,
+				0D14015229BF37500097393E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgendaIker;
+			productName = AgendaIker;
+			productReference = 0D14015429BF37500097393E /* AgendaIker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D14016929BF37510097393E /* AgendaIkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D14018129BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIkerTests" */;
+			buildPhases = (
+				0D14016629BF37510097393E /* Sources */,
+				0D14016729BF37510097393E /* Frameworks */,
+				0D14016829BF37510097393E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D14016C29BF37510097393E /* PBXTargetDependency */,
+			);
+			name = AgendaIkerTests;
+			productName = AgendaIkerTests;
+			productReference = 0D14016A29BF37510097393E /* AgendaIkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D14017329BF37510097393E /* AgendaIkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D14018429BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIkerUITests" */;
+			buildPhases = (
+				0D14017029BF37510097393E /* Sources */,
+				0D14017129BF37510097393E /* Frameworks */,
+				0D14017229BF37510097393E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D14017629BF37510097393E /* PBXTargetDependency */,
+			);
+			name = AgendaIkerUITests;
+			productName = AgendaIkerUITests;
+			productReference = 0D14017429BF37510097393E /* AgendaIkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D14014C29BF374F0097393E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0D14015329BF37500097393E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0D14016929BF37510097393E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0D14015329BF37500097393E;
+					};
+					0D14017329BF37510097393E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0D14015329BF37500097393E;
+					};
+				};
+			};
+			buildConfigurationList = 0D14014F29BF374F0097393E /* Build configuration list for PBXProject "AgendaIker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D14014B29BF374F0097393E;
+			productRefGroup = 0D14015529BF37500097393E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D14015329BF37500097393E /* AgendaIker */,
+				0D14016929BF37510097393E /* AgendaIkerTests */,
+				0D14017329BF37510097393E /* AgendaIkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D14015229BF37500097393E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14016429BF37510097393E /* LaunchScreen.storyboard in Resources */,
+				0D14016129BF37510097393E /* Assets.xcassets in Resources */,
+				0D14015F29BF37500097393E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14016829BF37510097393E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14017229BF37510097393E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D14015029BF37500097393E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14015C29BF37500097393E /* ViewController.swift in Sources */,
+				0D14015829BF37500097393E /* AppDelegate.swift in Sources */,
+				0D14015A29BF37500097393E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14016629BF37510097393E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14016F29BF37510097393E /* AgendaIkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D14017029BF37510097393E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14017929BF37510097393E /* AgendaIkerUITests.swift in Sources */,
+				0D14017B29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D14016C29BF37510097393E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D14015329BF37500097393E /* AgendaIker */;
+			targetProxy = 0D14016B29BF37510097393E /* PBXContainerItemProxy */;
+		};
+		0D14017629BF37510097393E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D14015329BF37500097393E /* AgendaIker */;
+			targetProxy = 0D14017529BF37510097393E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D14015D29BF37500097393E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D14015E29BF37500097393E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D14016229BF37510097393E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D14016329BF37510097393E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D14017C29BF37510097393E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D14017D29BF37510097393E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D14017F29BF37510097393E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgendaIker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D14018029BF37510097393E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgendaIker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D14018229BF37510097393E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgendaIker.app/AgendaIker";
+			};
+			name = Debug;
+		};
+		0D14018329BF37510097393E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgendaIker.app/AgendaIker";
+			};
+			name = Release;
+		};
+		0D14018529BF37510097393E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgendaIker;
+			};
+			name = Debug;
+		};
+		0D14018629BF37510097393E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.AgendaIkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AgendaIker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D14014F29BF374F0097393E /* Build configuration list for PBXProject "AgendaIker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D14017C29BF37510097393E /* Debug */,
+				0D14017D29BF37510097393E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D14017E29BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D14017F29BF37510097393E /* Debug */,
+				0D14018029BF37510097393E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D14018129BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D14018229BF37510097393E /* Debug */,
+				0D14018329BF37510097393E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D14018429BF37510097393E /* Build configuration list for PBXNativeTarget "AgendaIkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D14018529BF37510097393E /* Debug */,
+				0D14018629BF37510097393E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D14014C29BF374F0097393E /* Project object */;
+}
