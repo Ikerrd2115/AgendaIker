@@ -16,6 +16,14 @@
 		0D14016F29BF37510097393E /* AgendaIkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14016E29BF37510097393E /* AgendaIkerTests.swift */; };
 		0D14017929BF37510097393E /* AgendaIkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14017829BF37510097393E /* AgendaIkerUITests.swift */; };
 		0D14017B29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */; };
+		0D14018829BF38170097393E /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14018729BF38170097393E /* MenuVC.swift */; };
+		0D14018A29BF38810097393E /* RegistroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14018929BF38810097393E /* RegistroVC.swift */; };
+		0D14018C29BF389F0097393E /* CreateEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14018B29BF389F0097393E /* CreateEventVC.swift */; };
+		0D14018F29BF38C00097393E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14018E29BF38C00097393E /* DataManager.swift */; };
+		0D14019129BF38D30097393E /* EventsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14019029BF38D30097393E /* EventsRow.swift */; };
+		0D14019329BF38E90097393E /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14019229BF38E90097393E /* Events.swift */; };
+		0D14019529BF390C0097393E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14019429BF390C0097393E /* Login.swift */; };
+		0D14019729BF39730097393E /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14019629BF39730097393E /* ListViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		0D14017429BF37510097393E /* AgendaIkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaIkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D14017829BF37510097393E /* AgendaIkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaIkerUITests.swift; sourceTree = "<group>"; };
 		0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaIkerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D14018729BF38170097393E /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		0D14018929BF38810097393E /* RegistroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVC.swift; sourceTree = "<group>"; };
+		0D14018B29BF389F0097393E /* CreateEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventVC.swift; sourceTree = "<group>"; };
+		0D14018E29BF38C00097393E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0D14019029BF38D30097393E /* EventsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRow.swift; sourceTree = "<group>"; };
+		0D14019229BF38E90097393E /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		0D14019429BF390C0097393E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0D14019629BF39730097393E /* ListViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,14 @@
 		0D14015629BF37500097393E /* AgendaIker */ = {
 			isa = PBXGroup;
 			children = (
+				0D14018D29BF38AC0097393E /* Objects */,
 				0D14015729BF37500097393E /* AppDelegate.swift */,
 				0D14015929BF37500097393E /* SceneDelegate.swift */,
 				0D14015B29BF37500097393E /* ViewController.swift */,
+				0D14018729BF38170097393E /* MenuVC.swift */,
+				0D14018B29BF389F0097393E /* CreateEventVC.swift */,
+				0D14019629BF39730097393E /* ListViewVC.swift */,
+				0D14018929BF38810097393E /* RegistroVC.swift */,
 				0D14015D29BF37500097393E /* Main.storyboard */,
 				0D14016029BF37510097393E /* Assets.xcassets */,
 				0D14016229BF37510097393E /* LaunchScreen.storyboard */,
@@ -125,6 +146,17 @@
 				0D14017A29BF37510097393E /* AgendaIkerUITestsLaunchTests.swift */,
 			);
 			path = AgendaIkerUITests;
+			sourceTree = "<group>";
+		};
+		0D14018D29BF38AC0097393E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0D14018E29BF38C00097393E /* DataManager.swift */,
+				0D14019029BF38D30097393E /* EventsRow.swift */,
+				0D14019229BF38E90097393E /* Events.swift */,
+				0D14019429BF390C0097393E /* Login.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D14018A29BF38810097393E /* RegistroVC.swift in Sources */,
+				0D14019529BF390C0097393E /* Login.swift in Sources */,
 				0D14015C29BF37500097393E /* ViewController.swift in Sources */,
+				0D14019729BF39730097393E /* ListViewVC.swift in Sources */,
+				0D14018829BF38170097393E /* MenuVC.swift in Sources */,
+				0D14018F29BF38C00097393E /* DataManager.swift in Sources */,
+				0D14018C29BF389F0097393E /* CreateEventVC.swift in Sources */,
 				0D14015829BF37500097393E /* AppDelegate.swift in Sources */,
+				0D14019329BF38E90097393E /* Events.swift in Sources */,
 				0D14015A29BF37500097393E /* SceneDelegate.swift in Sources */,
+				0D14019129BF38D30097393E /* EventsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
